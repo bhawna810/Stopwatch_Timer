@@ -5,8 +5,8 @@ import clock from "../assets/images/clock.png";
 function Stopwatch() {
 
 const [time, setTime] = useState(0);
- const [minutes, setMinutes] = useState(0);
- const [seconds , setSeconds] = useState(0);
+ /*const [minutes, setMinutes] = useState(0);
+ const [seconds , setSeconds] = useState(0); */
 
   const [running, setRunning] = useState(false);
   useEffect(() => {
